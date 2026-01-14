@@ -1,4 +1,4 @@
-GAS LEAKAGE DETECTOR USING ARDUINO & LORA
+## GAS LEAKAGE DETECTOR USING ARDUINO & LORA
 
 • Wireless gas leakage detection system
 • Uses Arduino and LoRa communication
@@ -6,7 +6,7 @@ GAS LEAKAGE DETECTOR USING ARDUINO & LORA
 • No Wi-Fi or GSM required
 
 
-OVERVIEW
+## OVERVIEW
 
 • Project consists of two separate units
 • Transmitter node detects gas leakage
@@ -14,7 +14,7 @@ OVERVIEW
 • Designed for safety monitoring applications
 
 
-FEATURES
+## FEATURES
 
 • Long-range wireless communication using LoRa
 • Real-time gas leakage detection
@@ -23,7 +23,7 @@ FEATURES
 • Suitable for remote monitoring
 
 
-COMPONENTS USED
+## COMPONENTS USED
 
 • Arduino Uno / Nano (2 units)
 • LoRa Module (SX1278 / RA-02) (2 units)
@@ -36,7 +36,7 @@ COMPONENTS USED
 • USB or battery power supply
 
 
-REPOSITORY STRUCTURE
+## REPOSITORY STRUCTURE
 
 • Gas-Leakage-Detector
 • TransmitterCode.ino  – Arduino code for gas detection and LoRa transmission
@@ -44,7 +44,7 @@ REPOSITORY STRUCTURE
 • README.md            – Project documentation
 
 
-WORKING PRINCIPLE
+## WORKING PRINCIPLE
 
 • Gas sensor continuously monitors gas concentration
 • Sensor outputs analog voltage
@@ -56,7 +56,7 @@ WORKING PRINCIPLE
 • Buzzer and LED are activated at receiver end
 
 
-CIRCUIT CONNECTIONS – TRANSMITTER NODE
+## CIRCUIT CONNECTIONS – TRANSMITTER NODE
 
 • MQ Gas Sensor AO connected to Arduino analog pin
 • LoRa TX connected to Arduino RX
@@ -65,7 +65,7 @@ CIRCUIT CONNECTIONS – TRANSMITTER NODE
 • LED connected to Arduino digital pin
 
 
-CIRCUIT CONNECTIONS – RECEIVER NODE
+## CIRCUIT CONNECTIONS – RECEIVER NODE
 
 • LoRa TX connected to Arduino RX
 • LoRa RX connected to Arduino TX
